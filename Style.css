@@ -1,0 +1,222 @@
+	header{
+		background-color:#f4fc05 ;
+		position:absolute;
+		right:0;
+		left:0;
+		top:0;
+	}
+	.pocentru{
+		text-align:center;
+		margin-bottom:10px;
+	}
+	.cheep{
+		background-color:red;
+		color:white;
+		font-size: 1.4em;
+	}
+	.sale{
+		height:100px;
+		width:110px;
+	}
+	.head_pict{
+		display:flex;
+		justify-content:center;
+	}
+	.pict{
+		margin-left:60px;
+		margin-right:60px;
+	}
+	main{
+		margin-top:350px;
+	}
+	.futbolkas{
+		display:flex;
+		justify-content:center;
+	}
+	.T-shirt{
+		width:30%;
+		border-color:red;
+	}
+	.knopka{
+		color:white;
+		background-color:red;
+		border-radius:0px;
+		width:fit-content;
+		height:7%;
+		cursor:pointer;
+		
+	}
+	.knopka:hover{
+		background-color:green;
+		border-radius:15px;
+	}
+	.T-shirt img {
+		border:3px solid red;
+	}
+	
+	.T-shirt_2 img{
+		width:300px;
+		border:3px solid silver;
+	}
+	
+	.razmer{
+		background-color:Gainsboro;
+		padding-top:10px;
+		padding-bottom:10px;
+		
+	}
+	
+	.rozegresh{
+		background-color:red;
+		display:flex;
+		justify-content:space-between;
+		margin-top:100px;
+		max-width:1300px;
+		margin-left:300px;
+		box-shadow:10px -10px 30px 5px Maroon;
+		margin-bottom:100px;
+	}
+	
+	.money{
+		height:130px;
+		width:130px;
+		margin:5px;
+		
+	}
+	.infa{
+		margin-left:20px;
+		margin-bottom:5px;
+	}
+	.korzina{
+		background-color:#f4fc05;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:20px;
+	}
+	.zakaz{
+		margin:100px;
+	}
+	form{
+		margin-left:40%;
+	}
+	.input {
+		padding:10px;
+		background-color:Gainsboro;
+		border:none;
+		border-radius:2px;
+		width:300px;
+		box-shadow:5px 2px 10px 0.5px black;
+	}
+	.knopo4ka{
+		margin-left:12%;
+		background-color:green;
+		color:white;
+		padding:1%;
+		border-color:silver;
+		border-radius:3px;
+		cursor:pointer;
+	}
+	
+	hr{
+		max-width:320px;
+		box-shadow:2px 2px 5px 0.5px black;
+		margin-left:0px;
+		margin-bottom:20px;
+		border:none;
+	}
+	.supp img{
+		width:70px;
+		height:70px;
+		border:2px solid black;
+		cursor:pointer;
+	}
+	.supp {
+		position:fixed;
+		top:80%;
+		left:90%;
+	}
+	.rozegresh{
+		animation-name:round;
+		animation-duration:5s;
+		animation-iteration-count:infinite;
+		animation-direction:alternate;
+		animation-delay:0s;
+	}
+	@keyframes round{
+		0% {
+			background-color:red;
+		}
+		50%{
+			background-color:green;
+		}
+		100%{
+			background-color:blue;
+		}
+	}
+	.kalk{
+		width:50px;
+		height:30px;
+	}
+	.kalkyleter{
+		border:2px solid BurlyWood;
+		background-color:Cornsilk;
+		margin-right:1500px;
+		margin-left:100px;
+		padding:20px;
+	}
+	.kalk{
+		background-color:DarkGreen;
+		border-color:DarkOliveGreen;
+		width:86px;
+		color:white;
+	}
+	.gjlcxtn{
+		background-color:Salmon;
+		color:white;
+		border-color:red;
+	}
+	.igra{
+		background-color:green;
+		color:white;
+		width:200px;
+		height:50px;
+		margin-left:200px;
+		margin-top:200px;
+	}
+
+	.modal-content{
+		border:2px solid black;
+		margin:50px;
+		padding-left:20px;
+		padding-bottom:20px;
+		background-color:white;
+	}
+	.krestik{
+		margin-left:99%;
+		cursor:pointer;
+		font-size:1.5em;
+		
+	}
+	.krestik:hover{
+		color:red;
+	}
+	.oplata{
+		cursor:pointer;
+		color:LightSalmon;
+		background-color:FireBrick;
+	}
+	.oplata:hover{
+		color:GreenYellow;
+		background-color:ForestGreen;
+		border-radius:4em;
+	}
+	.modal{
+		position:fixed;
+		display:none;
+		z-index:0;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		background-color:rgba(0, 0, 0, 0.5);
+	}

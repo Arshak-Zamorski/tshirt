@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	
+		<link rel="stylesheet" href="Style.css" type="text/css">
+			<meta charset="utf-8">
+		<title>Магазин футболок</title>
+		<link
+			rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+        </script>
+</head>
+<body>
+	<header>
+		<div class="pocentru">	
+			<h2 class="animate__animated animate__bounceInUp"> ФУТБОЛКИ С ПРИНТАМИ</h2>
+			<font color="red" size="9">
+				<b>
+					499
+			
+					<sup>
+						<font color="red" size="5">руб.</font>
+					</sup>
+				</b>
+			</font>
+			<br>
+		<span class="cheep">	
+			ПОЧЕМУ ТАК ДЕШЕВО?
+		</span><br>
+	<div class="head_pict">
+		<div class="pict">
+			<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/09/21/14857128632b1c2bf0cb25.97498313sale.png" alt="sale" class="sale animate__animated animate__flipInX animate__slow"><br>
+			<b>Низкие цены</b>
+		</div>
+		<div class="pict">
+			<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/09/21/14857128632b1be81b7659.23149991deliv.png" alt="dostavka"class="sale animate__animated animate__bounceInLeft animate__slow" ><br>
+			<b>Доставки по всей России</b>
+		</div>
+		<div class="pict">			
+			<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/09/21/14857128632b1c26757ab2.66685325hit.png" alt="hit" class="sale  animate__animated animate__bounceIn animate__slow" ><br>
+			<b>Только хиты</b>
+		</div>
+		
+		
+	</div>
+		</div>		
+	</header>
+		
+	<main>
+		<section class="pocentru">
+			<h1>ФУТБОЛКИ</h1>
+			<p>100% хлопок</p>
+		<div class="futbolkas">
+			<div class="T-shirt">
+				<img src="photo.png" alt="футболка"><br>
+						<b>Футболка</b><br>
+					<b><font size="4" color="red">499Руб.</font></b><br>
+				<button class="knopka">Добавить в заказ</button>
+			</div>
+			<div class="T-shirt">
+				<img src="photo_1.png" alt="футболка"><br>
+						<b>Футболка</b><br>
+					<b><font size="4" color="red">499Руб.</font></b><br>
+				<button class="knopka">Добавить в заказ</button>
+			</div>
+		</div>
+		</section>
+		
+			<section class="pocentru">
+				<h3 class=" razmer">Как выбрать размер?</h3>
+			<div class="futbolkas">
+				<div class="T-shirt_2">
+					<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/08/22/14857128630394ae878908.41333677photo2.png" alt="футболка"><br>
+							<b>Футболка</b><br>
+						<b><font size="4" color="red">499Руб.</font></b><br>
+					<button class="knopka" onclick="addButton()">Добавить в заказ</button>
+				</div>
+				<div class="T-shirt_2">
+					<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/08/22/14857128630394ae878908.41333677photo2.png" alt="футболка"><br>
+							<b>Футболка</b><br>
+						<b><font size="4" color="red">499Руб.</font></b><br>
+					<button class="knopka" onclick="addButton()">Добавить в заказ</button>
+				</div>
+				<div class="T-shirt_2">
+					<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/08/22/14857128630394ae878908.41333677photo2.png" alt="футболка"><br>
+							<b>Футболка</b><br>
+						<b><font size="4" color="red">499Руб.</font></b><br>
+					<button class="knopka"onclick="addButton()">Добавить в заказ</button>
+				</div>
+			</div>
+			</section>
+			<section class="rozegresh" onclick="addIButton()">
+
+				<div class="infa rozaxx">
+					<font color="white" size="6">РОЗЫГРЫШ</font><br>
+					<b><font color="white" size="5">10 000 <sup>руб.</sup></font><br></b>
+					<font color="yellow" size="4">СРЕДИ ОБЛАДАТЕЛЕЙ</font><br>
+					<font color="yellow" size="4">КУПОНОВ</font><br>
+					<font color="white" size="3">Вечером 1 июня команда розырывает приз в прямом эфире на аккаунте @ghefhjs.ru</font><br>
+					
+				</div>
+				<div>
+					<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/08/31/14857128630f73011f6957.82819344money.jpg" alt="money" class="money">
+				</div>
+			</section>
+			
+			<section class="zakaz">
+				<h1  onclick="change2()" id="text2" style="cursor:pointer;">ВАШ ЗАКАЗ</h1>
+					<div class="korzina">
+						<b>
+							<h3  onclick="change()" id="text" style="cursor:pointer;">
+									Корзина пустая
+							</h3>
+						</b>
+					</div>
+					
+					<font color="Grey"> В корзине пусто!</font>
+					<br><br>
+					<button class="oplata">Оплатить </button>
+						<form action="#"
+						<h2>Оформление заказа</h2><br>
+						<label> Имя</label><br>
+						<input type="text" placeholder="Имя" class="input"> <br><br>
+						<label> Фамилия</label><br>
+						<input type="text" placeholder="Фамилия" class="input"> <br><br>
+						<label> Почта <label><br>
+						<input type="email" placeholder="Почта" class="input"> <br><br>
+						<label> Номер телефона </label><br>
+						<input type="phone" placeholder="Номер телефона" class="input"><br><br>
+						<font color="green">Оплата онлайн</font>
+						<hr>
+						<button type="submit" class="knopo4ka">Отправить</button>
+						</form>
+						
+			</section>
+				<div class="supp animate__animated animate__zoomIn">
+					<img src="https://math-prod.storage.yandexcloud.net/resource/image/2022/09/16/14857128632486e7127495.51691099tp.png" alt="gjll" onclick="pomosh()">
+				</div>
+	<div class="modal">
+		<div class="modal-content">
+			<span class="krestik">&times;</span>
+				<p>Какой то текст в модальном</p>
+		</div>
+	</div>
+				
+				
+				
+				
+				
+				
+			<div class="kalkyleter">
+				<input id="nemodin" class="gjlcxtn" type="text"><br>
+				<div id="btns">
+					<button id="plus" class="kalk" onclick="operation='+'">+</button>
+					<button id="minus" class="kalk" onclick="operation='-'">-</button><br>
+					<button id="umno" class="kalk" onclick="operation='*'">*</button>
+					<button id="delim" class="kalk" onclick="operation='/'">/</button><br>
+					<button id="bol" class="kalk" onclick="operation='>'">></button>
+					<button id="men" class="kalk" onclick="operation='<'"><</button><br>
+					<button id="oct" class="kalk" onclick="operation='%'">%</button>
+					
+				</div>
+				<input id="nemdva"class="gjlcxtn" type="text">
+				<button id="couuu" class="gjlcxtn" onclick="kalkeliter()">Подсчитать</button>
+				<div id="rezult"></div>
+			</div>
+		
+			<button class="igra" onclick="godai()">Начать игру</button>
+			
+	</main>
+	
+	
+	
+	
+	<footer>
+	
+	</footer>
+</body>
+	<script src="script.js"></script>
+</html>
